@@ -14,6 +14,8 @@ brew install wget
 brew install node@20
 brew install openjdk@17
 brew install dotnet
+brew install cocoapods
+brew install watchman
 
 # text editors
 echo "====> Installing text editors..."
@@ -33,6 +35,12 @@ brew install --cask gitup
 # ides
 echo "====> Installing IDEs..."
 brew install --cask visual-studio-code
+brew install --cask xcode
+
+# ios development
+echo "====> Installing iOS development tools..."
+brew install ios-deploy
+brew install ios-sim
 
 # additional softwares
 echo "====> Installing additional softwares..."
@@ -42,7 +50,6 @@ brew install postgresql@15
 brew install --cask keepassxc
 brew install --cask google-drive
 brew install --cask rustdesk
-brew install scrcpy
 brew install --cask tutanota
 brew install --cask telegram
 
